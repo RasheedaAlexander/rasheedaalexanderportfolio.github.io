@@ -1,0 +1,56 @@
+body {
+  background-color: #dadae3;
+}
+.header {
+    margin: 80px 80px 0 80px;
+}
+.title {
+  font-family: 'Niconne', cursive;
+  font-size: 72px;
+  text-shadow: 2px 2px #888888;
+}
+#small {
+  font-family: 'Verdana';
+  font-size: 30px;
+  color: #000;
+  text-shadow: none;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+
+  background-color: #9F418G;
+  border-color: #31347B;
+ }
+
+.btn
+{
+  display: block;
+  background-color: #9F418F;
+  border-color: #9F418F;
+  margin: 0 auto;
+  border: 1px solid #000 !important;
+  box-shadow: 7px 7px 5px #888888;
+}
+
+  .btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    width: 7%;
+}
+.center-block {
+  padding: 10px;
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid #bbbbbb !important;
+  box-shadow: 10px 5px 5px 0 #888888;
+  border-radius: 5px;
+}
+#quote {
+  font-size: 30px;
+}
+#b {
+  float: right;
+}
+.inv-tweet {
+  display: inline;
+}
