@@ -1,4 +1,4 @@
-sheedabeeda.github.io
+rasheedaalexander.github.io
 
 Portfolio 1/24/16
 
