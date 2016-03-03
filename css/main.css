@@ -172,6 +172,9 @@ text-align: center;
   }
 .thumbnail .title, .description {
   visibility: hidden;
+  width: 400px;
+  padding-left: 10%;
+  margin: 10%;
 }
   .thumbnail:hover .project {
     opacity: 0.3;
