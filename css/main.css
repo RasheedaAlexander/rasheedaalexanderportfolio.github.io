@@ -4,8 +4,7 @@ body {
   padding: 40px;
   font-family: 'Lato', sans-serif;
 }
-.container {
-  width: 100%;
+.container-fluid {
   margin: 0;
   padding-right: 50px;
   background-color: #000;
