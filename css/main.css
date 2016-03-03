@@ -1,172 +1,224 @@
+body {
+  max-width: 100%;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+.container {
+  width: 100%;
+  margin: 0;
+  background-color: #000;
+}
 .navbar {
-  padding: 0 20px 0 20px;
-
+  padding: 0 20px;
+  margin: 0;
+  font-weight: bold;
 }
-.navbar-default {
-    background-color: #B0B0B0 !important;
-}
-.navbar .navbar-default .navbar-static-top {
-  margin-bottom: 0;
-}
-.navbar-brand:hover {
-    background-color: #fff !important;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffff00;
 }
 .navbar-default .navbar-brand {
-  color: #000;
+  color: #fff;
   text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #555;
-    background-color: #B0B0B0 !important;
+.navbar-default .navbar-brand:hover {
+background-color: #fff;
+color: #000;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #000;
+    font-weight: bold;
+
 }
 .navbar-default .navbar-nav>.active>a:hover {
-    background-color: #fff !important;
+    background-color: #fff;
+    color: #000;
 }
-.navbar-nav li:hover {
-background-color: #fff;
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #fff;
+  color: #000;
 }
 a {
-  color: #000;
-  text-align: left;
+  color: #fff;
 }
 .jumbotron {
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
   height: 700px;
-  background: url("https://static.pexels.com/photos/6148/brush-makeup-make-up-brushes.jpg") no-repeat bottom center;
-  background-color: #000 !important;
+  border-bottom: thick solid #ffff00;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+  url("../img/night.jpg") no-repeat bottom center;
+  background-color: #000;
   background-size: cover;
   background-attachment: fixed;
 }
 .text-primary {
   padding-top: 150px;
-    font-size: 72px !important;
-    color: #fff !important;
-    /*-webkit-text-fill-color: white;
-    -webkit-text-stroke: 2px black;
-  */
-    text-shadow: 2px 2px black;
   }
-  /* Smartphones (portrait) ----------- */
-@media (min-device-width: 320px) {
-.jumbotron {
-overflow: hidden;
-}
-}
-  small {
-    color: brown !important;
-    font-size: 55% !important;
-    text-shadow: 1px 1px red;
+#one {
+    border-bottom: thick solid #ffff00;
   }
-  .text-center {
+small {
+    font-size: 55%;
+  }
+.text-center {
     margin-bottom: 50px;
+     /*
+     background-image: url("../img/bubble.png") !important;
+     background-repeat: no-repeat;
+     background-size: cover;
+     */
   }
-  .btn {
-    border: 2px solid #000 !important;
+.btn {
+    border: 2px solid #000;
     border-radius: 5px;
     box-shadow: 3px 3px 5px #888888;
   }
-  button.btn.btn-default.btn-lg:hover {
+button.btn.btn-default.btn-lg:hover {
     background-color: #262626;
     color: white;
 }
-  .row {
-    margin: 0 auto !important;
-  }
-  .row, .col-md-8 {
-    padding: 25px;
-  }
-  .about {
+.about {
     padding-top: 5%;
     height: auto;
-    background: url("https://41.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg") no-repeat top center;
+    background-color: #fff; 
+ }
+#about {
+  margin-bottom: 20px;
+  padding: 0 20px;
+  color: #000;
+  width: 100%;]
+  vertical-align: middle;
+  font-size: 72px;
+  font-weight: bolder;
+}
+@media(max-width:991px){
+  .jumbotron {
+overflow-y: hidden;
+border-bottom: thick solid red;
+}
+.text-center {
+  display: hidden;
+}
+#about {
+  text-align: center !important;
+  }
+#about-sm {
+  text-align: center;
+  }
+ #cosmo {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+  }
+ #contact, #email {
+    text-align: center;
+  }
+}
+p {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #000;
+}
+#about-sm {
+  padding-left: 20px;
+  }
+#cosmo {
+  height: 90%; 
+  vertical-align: middle; 
+}
+.black {
+padding: 10px;
+/*background-color: rgba(255, 255, 255, 0.3); */
+color: #000;
+text-align: center;
+}
+.gallery {
+    padding-bottom: 50px;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+     url("https://41.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg") no-repeat top center;
     background-size: 100% 110%;
     background-attachment: fixed;
-  }
-#about {
-  padding: 40px;
-  color: #fff;
-  text-shadow: 2px 2px #000;
-}
-  p {
-    font-size: 20px;
-    font-weight: bold;
-    color: #000;
-    /*text-shadow: 1px 1px #888888;
-    */
-  }
-/*
- @media (max-width: 992px) {
-   img .pull-right {
-   float: none !important;
-        margin: 0 auto;
-        width: 50%;
-        }
-    */
-
-.black {
-background-color: rgba(255, 255, 255, 0.4);
-border-radius: 5px;
-color: #000;
-  padding: 10px;
-}
-  span {
-    color: brown;
-  }
-  .col-sm-6, .col-md-4 {
-    padding-right:  0 !important;
-  }
-  .gallery {
-    background-color: #ccc2c1;
-    background: url("http://bishopandholland.com/wp-content/uploads/2014/09/dreamcloset4-e1411006886973.jpg") no-repeat top center;
+    /*background: url("https://41.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg") no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    */
   }
 #gallery {
   color: #fff;
-  text-shadow: 2px 2px #000;
+  font-size: 72px;
 }
-.thumbnail:hover {
-    opacity: .8 !important;
+.thumbnail {
+  border: none;
+  background: none;
+  height: 386.75px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img .project { 
+    height: 386.75px;
+    width: 550px;
   }
-  .contact {
-    background: url("https://static.pexels.com/photos/2459/stairs-home-loft-lifestyle.jpg") no-repeat top center;
-    background-size: cover;
-    background-attachment: fixed;
+.thumbnail .title, .description {
+  visibility: hidden;
+}
+  .thumbnail:hover .project {
+    opacity: 0.3;
   }
-  .footer {
-    background-color: #B0B0B0 !important;
+  .thumbnail:hover .title {
+    margin: 10px;
+    opacity: 1;
+    position:absolute;
+    top:20%;
+    left:10%;
+    color: #fff;
+    font-weight: bold;
+    visibility:visible;
+  }
+  .thumbnail:hover .description {
+    padding-left: 5px;
+    opacity: 1;
+    position:absolute;
+    bottom:20%;
+    left:10%;
+    color: #fff;
+    font-weight: bold;
+    visibility:visible;
+  }
+.contact {
+  padding-bottom: 20px;
+    background-color: #000;
   }
 #contact {
   color: #fff;
-  text-shadow: 2px 2px  2px #000;
+  text-shadow: 2px 2px 2px #000;
 }
-  .footer .inline li {
-    display: inline !important;
-    list-style-type: none !important;
-  }
   h1 {
     padding-left: 15px;
-    font-size: 55px !important;
-    font-weight: bold !important;
+    font-weight: bold;
   }
-  h2, #email {
+  #email {
     padding-left: 15px;
+    color: #ffff00;
+    margin-bottom: 20px;
   }
-  /*
-  @media (max-width: 768px) {
-    #email {
-      color: brown;
-    }
-     @media (max-width: 768px) {
-    .row .col-xs-12 > .pull-right {
-        float: none !important;
-        display: block;
-        margin: 0 auto;
-    }
-     @media (max-width: 992px) {
-      .row .col-xs-12 > .pull-right {
-        float: none !important;
-        display: block;
-        margin: 0 auto;
-     }
-     */
+  h3 {
+    margin: 0;
+  }
+  .fa {
+    display: inline-block;
+  }
+  a .fa:hover {
+    color: #ffff00;
+  }
