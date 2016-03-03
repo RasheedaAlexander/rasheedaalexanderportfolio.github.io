@@ -8,6 +8,11 @@ body {
   margin: 0;
   background-color: #000;
 }
+@media(min-width:375px){
+  .container {
+    width: 100%;
+  }
+}
 .navbar {
   padding: 0 20px;
   margin: 0;
