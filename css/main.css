@@ -48,6 +48,7 @@ a {
   color: #fff;
 }
 .jumbotron {
+  width: 100%;
   margin-bottom: 0;
   border-bottom: thick solid #ffff00;
   background: linear-gradient(
