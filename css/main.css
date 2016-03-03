@@ -102,9 +102,9 @@ button.btn.btn-default.btn-lg:hover {
 }
 @media(max-width:991px){
   .jumbotron {
-    padding-bottom: 50px;
-overflow-y: hidden;
-border-bottom: thick solid red;
+    padding-bottom: 5px;
+    overflow-y: hidden;
+    border-bottom: thick solid red;
 }
 .text-center {
   display: hidden;
