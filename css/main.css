@@ -15,6 +15,9 @@ body {
   margin: 0;
   font-weight: bold;
 }
+.navbar-fixed-top {
+  position: static;
+}
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #ffff00;
 }
