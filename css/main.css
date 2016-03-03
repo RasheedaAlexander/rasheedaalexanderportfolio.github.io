@@ -1,9 +1,11 @@
 body {
   max-width: 100%;
+  width: 100%;
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
 .container {
+  max-width: 100%;
   width: 100%;
   margin: 0;
   background-color: #000;
@@ -207,17 +209,17 @@ text-align: center;
   color: #fff;
   text-shadow: 2px 2px 2px #000;
 }
-  h1 {
-    padding-left: 15px;
-    font-weight: bold;
+h1 {
+  padding-left: 15px;
+  font-weight: bold;
   }
-  #email {
-    padding-left: 15px;
-    color: #ffff00;
-    margin-bottom: 20px;
+#email {
+  padding-left: 15px;
+  color: #ffff00;
+  margin-bottom: 20px;
   }
-  h3 {
-    margin: 0;
+h3 {
+  margin: 0;
   }
   .fa {
     display: inline-block;
