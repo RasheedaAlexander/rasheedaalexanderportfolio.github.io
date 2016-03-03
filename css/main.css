@@ -2,12 +2,13 @@ body {
   max-width: 100%;
   width: 100%;
   margin: 0;
+  padding: 40px;
   font-family: 'Lato', sans-serif;
 }
 .container {
   width: 100%;
   margin: 0;
-  padding: 20px;
+  padding: 50px;
   background-color: #000;
 }
 .navbar {
@@ -105,6 +106,9 @@ button.btn.btn-default.btn-lg:hover {
   font-weight: bolder;
 }
 @media(max-width:991px){
+  container {
+  overflow-x: visible;
+  }
   .jumbotron {
     padding-bottom: 10px;
     overflow-y: hidden;
