@@ -9,22 +9,20 @@ body {
   background-color: #000;
 }
 /*iPhone 6 Portrait*/
-@media only screen and (min-device-width: 375px) and (max-device-width: 375px) and (orientation : portrait) { 
+@media only screen and (max-device-width: 375px) and (orientation : portrait) { 
  .navbar {
-    width: 375px;
-  }
-  .container {
-    width: 100%;
+    width: 100% !important;
   }
 }
-/*iPhone 6 landscape*/
+/*iPhone 6 landscape
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { 
  .navbar {
     width: 667px;
   }
 }
+*/
 .navbar {
-  padding: 0 20px;
+  padding: 0 10%;
   margin: 0;
   font-weight: bold;
 }
