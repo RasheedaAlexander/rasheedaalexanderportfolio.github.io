@@ -184,9 +184,7 @@ text-align: center;font-size: 17px;padding-top: 25px;padding-bottom: 42px;font-w
   }
 .thumbnail .title, .description {
   visibility: hidden;
-  width: 400px;
-  padding-left: 10%;
-  margin: 10%;
+  width: 100%;
 }
   .thumbnail:hover .project {
     opacity: 0.3;
