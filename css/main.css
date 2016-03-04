@@ -1,12 +1,7 @@
 body {
-  max-width: 100%;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-}
-.container {
   width: 100%;
   margin: 0;
-  background-color: #000;
+  font-family: 'Lato', sans-serif;
 }
 /*iPhone 6 Portrait*/
 @media only screen and (max-device-width: 375px) and (orientation : portrait) { 
