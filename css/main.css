@@ -1,23 +1,23 @@
 body {
-  width: 100%;
+  max-width: 100%;
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
-/*iPhone 6 Portrait
-@media only screen and (max-device-width: 375px) and (orientation : portrait) { 
- .navbar {
-    width: 100% !important;
+.container {
+  width: 100%;
+  margin: 0;
+  background-color: #000;
+}
+@media(min-width:375px){
+  body {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
   }
 }
-iPhone 6 landscape
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { 
- .navbar {
-    width: 667px;
-  }
-}
-*/
 .navbar {
-  padding: 0 10%;
+  padding: 0 20px;
   margin: 0;
   font-weight: bold;
 }
