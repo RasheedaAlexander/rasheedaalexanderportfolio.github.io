@@ -3,13 +3,13 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
-/*iPhone 6 Portrait*/
+/*iPhone 6 Portrait
 @media only screen and (max-device-width: 375px) and (orientation : portrait) { 
  .navbar {
     width: 100% !important;
   }
 }
-/*iPhone 6 landscape
+iPhone 6 landscape
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { 
  .navbar {
     width: 667px;
