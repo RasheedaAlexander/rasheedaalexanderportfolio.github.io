@@ -8,10 +8,9 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #007cb2;
 }
-@media (max-width: 768px) {
+
 .page-header {
 		min-height: 700px;
-	}
 }
 .container { 
 	width: 100%;
@@ -30,11 +29,8 @@ body {
   	background-repeat: no-repeat;
   	border: none;
 }
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
 .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
     margin: 0 0 50px 0;
-}
 }
 .text-center{
 	padding-top: 4%;
@@ -54,8 +50,9 @@ h3 {
 	text-align: center;
 }
 .input-group {
-	width: 200px;
-	margin: 0 auto 6% auto;
+	width: 350px;
+	margin: 0 auto 1em auto;
+	padding-left: 8.5em;
 }
 .btn-group-vertical {
 	width: 300px;
