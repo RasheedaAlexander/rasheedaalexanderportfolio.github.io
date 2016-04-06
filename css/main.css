@@ -1,237 +1,298 @@
-body {
-  max-width: 100%;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-}
-.container {
-  width: 100%;
-  margin: 0;
-  background-color: #000;
-}
-@media(min-width:375px){
   body {
-    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
   }
   .container {
     width: 100%;
-  }
-}
-.navbar {
-  padding: 0;
-  margin: 0;
-  font-weight: bold;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #ffff00;
-}
-.navbar-default .navbar-brand {
-  color: #fff;
-  text-align: left;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-}
-.navbar-default .navbar-brand:hover {
-background-color: #fff;
-color: #000;
-}
-.navbar-default .navbar-nav>li>a {
-    color: #fff;
-    font-size: 15px;
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    margin: 0;
     background-color: #000;
+  }
+  .navbar {
+    padding: 0;
+    margin: 0;
     font-weight: bold;
-
-}
-.navbar-default .navbar-nav>.active>a:hover {
-    background-color: #fff;
-    color: #000;
-}
-.navbar-default .navbar-nav>li>a:hover {
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+      background-color: #ffff00;
+  }
+  .navbar-default .navbar-brand {
+    color: #fff;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .navbar-default .navbar-brand:hover {
   background-color: #fff;
   color: #000;
-}
-a {
-  color: #fff;
-}
-.jumbotron {
-  width: 100%;
-  margin-bottom: 0;
-  border-bottom: thick solid #ffff00;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-  url("../img/night.jpg") no-repeat bottom center;
-  background-color: #000;
-  background-size: cover;
-  background-attachment: fixed;
-}
-.text-primary {
-  padding-top: 150px;
   }
-#one {
-    border-bottom: thick solid #ffff00;
+  .navbar-default .navbar-nav>li>a {
+      color: #fff;
+      font-size: 15px;
   }
-small {
-    font-size: 55%;
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
+      color: #fff;
+      background-color: #000;
+      font-weight: bold;
+
   }
-.text-center {
-    margin-bottom: 50px;
-     /*
-     background-image: url("../img/bubble.png") !important;
-     background-repeat: no-repeat;
-     background-size: cover;
-     */
+  .navbar-default .navbar-nav>.active>a:hover {
+      background-color: #fff;
+      color: #000;
   }
-.btn {
-    border: 2px solid #000;
-    border-radius: 5px;
-    box-shadow: 3px 3px 5px #888888;
+  .navbar-default .navbar-nav>li>a:hover {
+    background-color: #fff;
+    color: #000;
   }
-button.btn.btn-default.btn-lg:hover {
-    background-color: #262626;
-    color: white;
-}
-.about {
-    padding-top: 5%;
-    height: auto;
-    background-color: #fff; 
- }
-#about {
-  margin-bottom: 20px;
-  padding: 0 20px;
-  color: #000;
-  width: 100%;]
-  vertical-align: middle;
-  font-size: 62px;
-  font-weight: bolder;
-}
-@media(max-width:991px){
-  container {
-  overflow-x: visible;
+  a {
+    color: #fff;
   }
   .jumbotron {
-    padding-bottom: 10px;
-    overflow-y: hidden;
-    border-bottom: thick solid red;
-}
-.text-center {
-  display: hidden;
-}
-#about {
-  text-align: center !important;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: thick solid #ffff00;
   }
-#about-sm {
-  text-align: center;
-  }
- #cosmo {
-    margin: 0 auto;
-    display: block;
-    width: 50%;
-  }
- #contact, #email {
-    text-align: center;
-  }
-}
-p {
-    font-size: 20px;
-    /* font-weight: bolder; */
-    color: #000;
-}
-#about-sm {
-  padding-left: 20px;
-  }
-#cosmo {
-  height: 90%; 
-  vertical-align: middle; 
-}
-.black {/* padding: 10px; */
-/*background-color: rgba(255, 255, 255, 0.3); */
-color: #000;
-text-align: center;font-size: 17px;padding-top: 25px;padding-bottom: 42px;font-weight: 600;line-height: 25px;}
-.gallery {
-    padding-bottom: 50px;
-    background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-     url("https://41.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg") no-repeat top center;
-    background-size: 100% 110%;
-    background-attachment: fixed;
-    /*background: url("https://41.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg") no-repeat top center;
+  .jumbotron .container {
+    padding-bottom: 20px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+    url("https://s-media-cache-ak0.pinimg.com/736x/ce/8a/d3/ce8ad3a20ae605714752cba3c457fd8e.jpg");
     background-size: cover;
     background-attachment: fixed;
-    */
+    background-position: top center;
   }
-#gallery {
-  margin-top: 40px;
-  color: #fff;
-  font-size: 62px;
-}
-.thumbnail {
-  border: none;
-  background: none;
-  height: 386.75px;
-}
+  h1 {
+    padding-left: 15px;
+    font-weight: bold;
+    }
+  .text-primary {
+    padding-top: 150px;
+    text-shadow: 2px 2px 2px #000;
+    }
+  #one {
+    border-bottom: thick solid #ffff00;
+    text-shadow: 2px 2px 2px #000;
+    }
+  small {
+    font-size: 55%;
+    text-shadow: 2px 2px 2px #000;
+    color: #fff; 
+    font-weight: bold;
+    }
+  .text-center {
+      margin-bottom: 50px;
+       /*
+       background-image: url("../img/bubble.png") !important;
+       background-repeat: no-repeat;
+       background-size: cover;
+       */
+    }
+  .btn {
+      border: 2px solid #000;
+      border-radius: 5px;
+      box-shadow: 3px 3px 5px #888888;
+    }
+  button.btn.btn-default.btn-lg:hover {
+      background-color: #262626;
+      color: white;
+  }
+  .about {
+      padding-top: 5%;
+      height: auto;
+      background-color: #fff; 
+   }
+  #about {
+    margin-bottom: 20px;
+    padding: 0 20px;
+    color: #000;
+    width: 100%;]
+    vertical-align: middle;
+    font-size: 62px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  #about-sm {
+    text-align: center;
+    }
+  #cosmo {
+    width: 100%;
+    padding-right: 2em; 
+    padding-left: 2em; 
+    margin: 10px auto;
+  }
 
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img .project { 
-    height: 386.75px;
-    width: 550px;
+  p {
+  color: #000;
+  text-align: center;
+  font-size: 17px;
+  padding-top: 25px;
+  padding-bottom: 42px;
+  font-weight: 600;
+  line-height: 25px;
   }
-.thumbnail .title, .description {
-  visibility: hidden;
-  width: 100%;
-}
-  .thumbnail:hover .project {
-    opacity: 0.3;
-  }
-  .thumbnail:hover .title {
-    margin: 10px;
-    opacity: 1;
-    position:absolute;
-    top:20%;
-    left:10%;
+  .gallery {
+      padding-bottom: 50px;
+      background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url("https://s-media-cache-ak0.pinimg.com/236x/a9/e9/4b/a9e94b4ceea9e26bcecbc69a0b7d59a9.jpg") no-repeat bottom;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: bottom center;
+
+    }
+  #gallery {
+    margin-top: 40px;
     color: #fff;
-    font-weight: bold;
-    visibility:visible;
+    font-size: 62px;
   }
-  .thumbnail:hover .description {
-    padding-left: 5px;
+  .thumbnail {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    background: none;
+    border: none;
+    border-radius: 0;
+      position: relative;
+    }
+    .thumbnail .caption {
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: center;
+      vertical-align: middle;
+      visibility: hidden;
+    }
+  .thumbnail:hover .caption {
     opacity: 1;
+    width: 100%;
+    height: 100%;
     position:absolute;
-    bottom:20%;
-    left:10%;
-    color: #fff;
-    font-weight: bold;
-    visibility:visible;
-  }
-.contact {
-  padding-bottom: 20px;
+    top:0;
+    left:0;
     background-color: #000;
+    background-size: cover;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    visibility:visible;
   }
-#contact {
-  color: #fff;
-  text-shadow: 2px 2px 2px #000;
-}
-h1 {
-  padding-left: 15px;
-  font-weight: bold;
+  .caption p {
+    color: #fff;
   }
-#email {
-  padding-left: 15px;
-  color: #ffff00;
-  margin-bottom: 30px;
+  .contact {
+    padding-bottom: 20px;
+      background-color: #000;
+    }
+  #contact {
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    text-transform: uppercase;
   }
-h3 {
-  margin: 0;
-  }
-  .fa {
-    display: inline-block;
-  }
-  a .fa:hover {
+  #email {
+    padding-left: 15px;
     color: #ffff00;
+    margin-bottom: 30px;
+    text-align: center;
+    }
+  h3 {
+    margin: 0;
+    }
+    .fa {
+      display: inline-block;
+    }
+    a .fa:hover {
+      color: #ffff00;
+    }
+
+
+  /* ================================= 
+    Media Queries
+  ==================================== */
+  @media (min-width: 789px) {
+    .jumbotron .container {
+    margin-bottom: 0;
+    border-bottom: thick solid #ffff00;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+    url("https://smilesandkittens.files.wordpress.com/2015/11/1-star-background.gif") no-repeat bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #about {
+    margin-bottom: 20px;
+    padding: 0 20px;
+    color: #000;
+    width: 100%;]
+    vertical-align: middle;
+    font-size: 62px;
+    font-weight: bolder;
+    text-align: left;
+  }
+  #about-sm {
+    padding-left: 20px;
+    text-align: left;
+    }
+    #cosmo {
+      margin: 0 auto;
+      display: block;
+      width: 80%;
+      padding: 0;
+    }
+    p {
+      font-size: 20px;
+    }
+    .gallery {
+      padding-bottom: 50px;
+      background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+       url("https://41.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg") no-repeat top center;
+      background-size: 100% 110%;
+      background-attachment: fixed;
+    }
+    img {
+      vertical-align: top;
+    }
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img .project { 
+      height: 386.75px;
+      width: 100%;
+    }
+    .thumbnail {
+      position: relative;
+    }
+    .thumbnail .caption {
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: center;
+      vertical-align: middle;
+      visibility: hidden;
+    }
+  .thumbnail:hover .caption {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: #000;
+    background-size: cover;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    visibility:visible;
+  }
+  .caption p {
+    color: #fff;
   }
