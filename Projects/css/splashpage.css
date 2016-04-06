@@ -54,6 +54,7 @@ h3 {
 	width: 350px;
 	margin: 0 auto 1em auto;
 	padding-left: 8.5em;
+	display:inline;
 }
 input.col-sm-2.form-control.input-md, .input.col-sm-6.form-control.input-md {
     width: 250px;
