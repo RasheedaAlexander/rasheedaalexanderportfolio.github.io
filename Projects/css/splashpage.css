@@ -11,7 +11,7 @@ body {
 }
 
 .page-header {
-		min-height: 700px;
+	min-height: 700px;
 }
 .container { 
 	width: 100%;
@@ -52,8 +52,6 @@ h3 {
 }
 .input-group {
 	width: 350px;
-	margin: 0 auto 1em auto;
-	padding-left: 8.5em;
 	display:inline;
 }
 input.col-sm-2.form-control.input-md, .input.col-sm-6.form-control.input-md {
@@ -61,7 +59,7 @@ input.col-sm-2.form-control.input-md, .input.col-sm-6.form-control.input-md {
     height: 30px;
 }
 .input.col-sm-2.form-control.input-md {
-	margin-left: 300px;
+	margin-left: 400px;
 }
 .btn-group-vertical {
 	width: 350px;
