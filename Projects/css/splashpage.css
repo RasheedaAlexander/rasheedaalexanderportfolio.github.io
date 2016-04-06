@@ -50,6 +50,9 @@ body {
    text-align: center;
    margin-bottom: 25px;
 }
+h3 {
+	text-align: center;
+}
 .input-group {
 	width: 200px;
 	margin: 0 auto 6% auto;
