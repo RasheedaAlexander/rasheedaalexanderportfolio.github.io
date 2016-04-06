@@ -25,8 +25,8 @@ body {
 .page-header {
 	margin: 0 -15px;
 	padding: 5% 0;
-  	background-image: url("../img/JoeBiden.jpg");
-  	background-size: 100% 100%;
+  	background-image: url("https://rasheedaalexander.github.io/img/JoeBiden.jpg");
+  	background-size: cover;
   	background-repeat: no-repeat;
   	border: none;
 }
@@ -43,6 +43,7 @@ body {
 	margin-bottom: 0;
 	color: #ffffff;
 	text-transform: uppercase;
+	text-align: center;
 }
 #for-pres {
 	font-size: 12px;
