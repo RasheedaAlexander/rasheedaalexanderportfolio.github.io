@@ -144,13 +144,12 @@
       background: linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-      ),url("https://s-media-cache-ak0.pinimg.com/236x/a9/e9/4b/a9e94b4ceea9e26bcecbc69a0b7d59a9.jpg") no-repeat fixed;
+      ),url("https://s-media-cache-ak0.pinimg.com/236x/7b/2d/a1/7b2da1e50c6b63e37ff63c3184653b4a.jpg") no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
       background-attachment: fixed;
-      background-position: bottom center;
 
     }
   #gallery {
@@ -213,6 +212,7 @@
     }
     .fa {
       display: inline-block;
+      padding-bottom: 1em;
     }
     a .fa:hover {
       color: #ffff00;
