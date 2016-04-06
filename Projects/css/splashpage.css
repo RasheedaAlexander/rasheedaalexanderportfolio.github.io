@@ -55,8 +55,16 @@ h3 {
 	margin: 0 auto 1em auto;
 	padding-left: 8.5em;
 }
+input.col-sm-2.form-control.input-md, .input.col-sm-6.form-control.input-md {
+    width: 250px;
+    height: 30px;
+}
+.input.col-sm-2.form-control.input-md {
+	margin-left: 300px;
+}
 .btn-group-vertical {
-	width: 300px;
+	width: 350px;
+	height: 30px;
 	margin: 0 auto;
 }
 .btn-primary { 
