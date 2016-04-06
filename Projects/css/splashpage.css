@@ -54,11 +54,11 @@ h3 {
 	width: 350px;
 	display:inline;
 }
-input.col-sm-2.form-control.input-md, .input.col-sm-6.form-control.input-md {
+input.col-md-4.form-control.input-md, .input.col-sm-6.form-control.input-md {
     width: 250px;
     height: 30px;
 }
-.input.col-sm-2.form-control.input-md {
+.input.col-md-4.form-control.input-md {
 	margin-left: 400px;
 }
 .btn-group-vertical {
