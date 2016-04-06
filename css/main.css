@@ -61,13 +61,12 @@
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
       ),
-    url("https://s-media-cache-ak0.pinimg.com/736x/ce/8a/d3/ce8ad3a20ae605714752cba3c457fd8e.jpg")no-repeat fixed;
+    url("https://smilesandkittens.files.wordpress.com/2015/11/1-star-background.gif") no-repeat fixed;
+    background-size: cover;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top center;
   }
   h1 {
     padding-left: 15px;
@@ -227,13 +226,6 @@
     .jumbotron .container {
     margin-bottom: 0;
     border-bottom: thick solid #ffff00;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-      ),
-    url("https://smilesandkittens.files.wordpress.com/2015/11/1-star-background.gif") no-repeat bottom center;
-    background-size: cover;
-    background-attachment: fixed;
   }
   #about {
     margin-bottom: 20px;
