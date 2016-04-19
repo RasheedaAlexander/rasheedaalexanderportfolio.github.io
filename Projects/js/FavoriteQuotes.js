@@ -5,7 +5,7 @@ $(document).ready(function(){
   "If you can't love yourself, how in the hell are you going to love somebody else? -Ru Paul", 
   "You have set standards for how you want to be treated and what you expect from yourself and for yourself -Iyanla Vanzant",
     "Crying is for plain women. Pretty women go shopping!  -Blanche Devereaux", 
-    "The older you get, the better you get. Unless you're a banana. -Rose Nylon";
+    "The older you get, the better you get. Unless you're a banana. -Rose Nylon"
 ];
 
 function myQuote() {
@@ -18,4 +18,7 @@ var random = Math.floor(Math.random() * quotes.length);
   return random;
 }
   $("#clickme").click(function(){
-    var random=myQuote()})});
+    var random=myQuote();
+    
+  })
+});
