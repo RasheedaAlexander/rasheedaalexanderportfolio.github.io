@@ -17,8 +17,7 @@ var random = Math.floor(Math.random() * quotes.length);
     $(this).text(quotes[random])}).fadeIn(150);
   return random;
 }
-  $("#clickme").click(function(){
-    var random=myQuote();
-    
+  $("#clickme").click(function(random){
+    random=myQuote();
   })
 });
