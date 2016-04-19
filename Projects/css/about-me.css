@@ -92,7 +92,6 @@ p {
 .footer {
 	display: block;
 	background: rgba(0,0,0, .7);
-	width: 100%;
 	height: 100px !important;
 	vertical-align:bottom;
 	padding: 10px;
