@@ -11,6 +11,7 @@ html, body {
 }
 body {
 	background-color: #000;
+	overflow: hidden;
 }
 nav {
 	width: 100%;
