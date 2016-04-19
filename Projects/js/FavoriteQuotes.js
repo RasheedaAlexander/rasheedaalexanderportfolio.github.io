@@ -4,8 +4,8 @@ $(document).ready(function(){
   "Success is the best revenge. -Unknown",
   "If you can't love yourself, how in the hell are you going to love somebody else? -Ru Paul", 
   "You have set standards for how you want to be treated and what you expect from yourself and for yourself -Iyanla Vanzant",
-    "Add More Quotes Soon -Me", 
-    "la ala lalaaaaa -Me"
+    "Crying is for plain women. Pretty women go shopping!  -Blanche Devereaux", 
+    "The older you get, the better you get. Unless you're a banana. -Rose Nylon"
 ];
 
 function myQuote() {
